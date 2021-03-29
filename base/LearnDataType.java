@@ -18,7 +18,7 @@ char        2
 
 */
 
-public class DataType {
+public class LearnDataType {
     public static void main(String[] args) {
         System.out.println("***************** 字符");
         char a = 'a';

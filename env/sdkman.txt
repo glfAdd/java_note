@@ -1,0 +1,4 @@
+sdkman 安装的 sdk 包路径 /Users/glfadd/.sdkman/candidates/
+
+
+

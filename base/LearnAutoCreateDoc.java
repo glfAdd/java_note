@@ -7,7 +7,7 @@
  *
  * 1. 生成文档的类必须用 public 修饰
  */
-public class AutoCreateDoc {
+public class LearnAutoCreateDoc {
     public static void main(String[] args) {
         System.out.println("hello word");
     }
