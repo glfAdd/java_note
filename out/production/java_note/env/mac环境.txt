@@ -1,0 +1,3 @@
+安的
+curl -s https://get.sdkman.io | bash
+source "/Users/glfadd/.sdkman/bin/sdkman-init.sh"
