@@ -111,7 +111,7 @@ public class LearnDataType {
 
 
         System.out.println("*****************  检测对象类型");
-        int c1 = 33;
-        boolean aType = c1 
+        String c1 = "aa";
+        boolean result = c1 instanceof String;
     }
 }
