@@ -62,3 +62,41 @@ c + B               打开/关闭边栏
     },
 ]
 
+
+
+----------------------------- Code Runner
+c + a + N 	运行代码
+c + a + M	停止运行
+
+
+
+
+settings.json 设置
+"code-runner.runInTerminal": true,
+
+
+----------------------------- python 代码格式化工具
+1. pip 使用插件 yapf 和 flake8
+
+2. flake8 配置
+命令行参数
+flake8 bpm_handlers.py --max-line-length=150
+
+vscode 参数设置
+{
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": ["--max-line-length=248"], # 设置单行最长字符限制
+    "python.linting.pylintEnabled": false # 关闭pylint工具
+}
+
+3. yapf 参数设置
+{
+    "python.formatting.provider": "yapf",
+    "python.formatting.yapfArgs": ["--style", "{column_limit: 79}"],
+}
+
+
+
+
+
+

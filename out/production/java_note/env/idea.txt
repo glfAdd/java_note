@@ -1,0 +1,6 @@
+插件
+
+BashSupport
+Rainbow Brackets			括号匹配
+Relative Line Numbers		行号
+Statistic					代码量统计
