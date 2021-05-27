@@ -9,6 +9,7 @@ finalize()
 Java 允许定义这样的方法，它在对象被垃圾收集器析构(回收)之前调用，这个方法叫做 finalize( )，它用来清除回收对象
 
 
+
 */
 public class LearnFunc {
     public static void main(String[] args) {
