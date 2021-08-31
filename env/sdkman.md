@@ -1,15 +1,27 @@
-JVM 虚拟机
-JRE=JVM+java se
-JDK=JRE+开发工具集
+##### sdkman
 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Jabba 多版本管理
-windows安装, 使用powershell, 输入下面命令
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-Invoke-Expression (
-  Invoke-WebRequest https://github.com/shyiko/jabba/raw/master/install.ps1 -UseBasicParsing
-).Content
+- 安装
 
+```bash
+$ curl -s https://get.sdkman.io | bash
+$ source "/Users/glfadd/.sdkman/bin/sdkman-init.sh"
+```
 
+- 命令
+
+```bash
+$ sdk selfupdate      升级sdkman
+$ sdk list            查看sdkman支持安装的sdk组件
+$ sdk list java       可以查看java的可用版本。
+$ sdk install java 8u272-albba       安装
+$ sdk uninstalll candidate    卸载
+$ sdk use candidate
+$ sdk default candidate
+```
+
+##### windows
+
+```
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - SDKMAN 多版本管理
 windows安装
 1. 安装git bash
@@ -36,8 +48,6 @@ sdk default candidate
 
 sdk install java 8u272-albba
 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 直接安装多个版本, 切换环境变量
-失败
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - java 安装以后没有jre文件
 1. 管理员运行cmd
@@ -46,3 +56,6 @@ sdk install java 8u272-albba
 
 
 AutoCreateDoc.java:8: 错误: 编码GBK的不可映射字符
+
+```
+
